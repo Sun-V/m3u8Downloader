@@ -53,7 +53,6 @@ def download_ts_file(ts_url_list, download_dir):
 def merge_file(ts_list, dir):
     index = 0
     outfile = ''
-    dir = dir
     ts_total = len(ts_list)
     while index < ts_total:
         file_name = ts_list[index].split('/')[-1].split('?')[0]
