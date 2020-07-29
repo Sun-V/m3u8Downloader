@@ -86,7 +86,7 @@ if __name__ == '__main__':
     fi.close()
 
     p = Pinyin()
-    download_dir='D:/download/kaishu/'
+    download_dir='D:/Download/kaishu/'
     if not os.path.exists(download_dir):
         os.makedirs(download_dir)
     for videoname in videoNameList:
